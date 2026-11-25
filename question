@@ -1,0 +1,9 @@
+3. Task Management API – 50 Marks 
+
+Fields: title, description, due_date, status, user (ForeignKey to User)
+
+Implement CRUD operations using two APIView classes (one for List/Create and 
+another for Retrieve/Update/Delete using object ID).  
+
+Implement DRF Token Authentication and a User Registration API.Implement.permissions & filtering: Only authenticated users can access endpoints, and users 
+can view, update, and delete only their own tasks.
